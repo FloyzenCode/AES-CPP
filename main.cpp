@@ -1,11 +1,12 @@
 #include <iostream>
 #include <cstring>
 #include "aes.h"
+#include <tchar.h>
 #define _STD_ using namespace std
 
 _STD_;
 
-int main()
+int _tmain(INT argc, CHAR *argv[])
 {
     const char* message = "This is a secret message.";
 
